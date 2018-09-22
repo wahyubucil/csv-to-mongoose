@@ -1,0 +1,19 @@
+{
+  "name": "csv-to-mongoose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wahyubucil/csv-to-mongoose.git",
+  "author": "Wahyu Budi Saputra <wahyubucil@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  }
+}
